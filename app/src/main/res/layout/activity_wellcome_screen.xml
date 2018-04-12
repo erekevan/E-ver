@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCE5"
+    tools:context=".WellcomeScreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="174dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:background="#FFCCEE"
+        android:backgroundTint="#CC99FF"
+        android:lineSpacingExtra="10sp"
+        android:text="Mom's Storage System"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        tools:background="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:text="Welcome TO"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#CCFFFF"
+        android:textSize="27dp" />
+
+    <Button
+        android:id="@+id/welcomScreenButton"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="154dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#CC99FF"
+        android:text="Start"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</RelativeLayout>
